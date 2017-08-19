@@ -32,3 +32,5 @@ python 3.6
 监听网页的请求（视频有播放按钮，应该可以用selenium模拟点击），获取headers或者url信息（抓包？）。 我，，，，，目前还没有找到解决办法/(ㄒoㄒ)/~~
 
 ### 效果图
+![image](./asserts/001.jpg)
+![image](./asserts/02.jpg)
