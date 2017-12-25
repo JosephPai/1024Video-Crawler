@@ -34,3 +34,17 @@ python 3.6
 ### 效果图
 ![image](./asserts/001.jpg)
 ![image](./asserts/02.jpg)
+
+-----
+
+## 2017.12.25更新
+ - 新增了动态代理
+ - 新增了m3u8解析，无需再使用Chrome开发者工具
+
+今天整理项目适合，又看到了这个将近半年前的项目，想到上面提到的问题，始终觉得像是心病，不解决了感觉不舒服。
+尝试了browsermobProxy嗅探网页network traffic信息，未果，毕竟是基于java的工具，对于python不少很友好
+最终使用m3u8的python解析包对于m3u8进行了很好的解析，获得了视频真实地址，并且对于之前的视频片段数目的计算方式有了更好的计算方式。
+
+测试过程中IP被封锁，不得不使用了动态代理，问题驱动是最好的实践。
+
+具体实现过程参见CSDN传送门：http://blog.csdn.net/JosephPai/article/details/78897370
